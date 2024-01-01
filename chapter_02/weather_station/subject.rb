@@ -2,14 +2,14 @@
 
 module Subject
   def register_observer(observer)
-    NotImplementedError
+    raise NotImplementedError
   end
 
   def remove_observer(observer)
-    NotImplementedError
+    raise NotImplementedError
   end
 
   def notify_observers
-    NotImplementedError
+    raise NotImplementedError
   end
 end

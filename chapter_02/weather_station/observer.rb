@@ -2,6 +2,6 @@
 
 module Observer
   def update
-    NotImplementedError
+    raise NotImplementedError
   end
 end

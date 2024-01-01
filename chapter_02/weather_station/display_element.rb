@@ -2,6 +2,6 @@
 
 module DisplayElement
   def display
-    NotImplementedError
+    raise NotImplementedError
   end
 end
