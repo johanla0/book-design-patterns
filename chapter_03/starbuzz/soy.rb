@@ -7,7 +7,7 @@ class Soy < CondimentDecorator
     "#{@beverage.description}, Soy"
   end
 
-  def price
+  def condiment_price
     { tall: 0.1,
       grande: 0.15,
       venti: 0.2 }[size]

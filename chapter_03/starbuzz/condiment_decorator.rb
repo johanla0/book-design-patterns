@@ -15,11 +15,11 @@ class CondimentDecorator < Beverage
     raise NotImplementedError
   end
 
-  def price
+  def condiment_price
     raise NotImplementedError
   end
 
   def cost
-    (@beverage.cost + price).round(2)
+    (@beverage.cost + condiment_price).round(2)
   end
 end

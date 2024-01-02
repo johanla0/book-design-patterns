@@ -7,7 +7,7 @@ class Whip < CondimentDecorator
     "#{@beverage.description}, Whip"
   end
 
-  def price
+  def condiment_price
     { tall: 0.05,
       grande: 0.1,
       venti: 0.15 }[size]

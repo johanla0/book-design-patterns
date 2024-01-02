@@ -7,7 +7,7 @@ class Mocha < CondimentDecorator
     "#{@beverage.description}, Mocha"
   end
 
-  def price
+  def condiment_price
     { tall: 0.15,
       grande: 0.2,
       venti: 0.25 }[size]

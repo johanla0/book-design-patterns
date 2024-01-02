@@ -23,9 +23,9 @@ beverages << Whip.new(
     )
   )
 )
-beverages << Mocha.new(
+beverages << Whip.new(
   Mocha.new(
-    Espresso.new
+    Espresso.new({ size: :grande })
   )
 )
 
